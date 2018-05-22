@@ -6,7 +6,7 @@
   font-weight: bold;
 }
 
-.Button {
+.Button, .Button2 {
   background-color: #2ecc71;
   font: inherit;
   color: #000;
@@ -15,6 +15,7 @@
   cursor: pointer;
   outline: none;
   color: #fff;
+  margin: 0 20px;
 }
 
 .Button:hover {
@@ -30,4 +31,14 @@
 .Button.Red:hover {
   background-color: #ff9ff3;
   color: #000;
+}
+
+.Button2 {
+  background-color: #e1b12c;
+  color: #000;
+}
+
+.Button2:hover {
+  background-color: #e056fd;
+  color: #fff;
 }
